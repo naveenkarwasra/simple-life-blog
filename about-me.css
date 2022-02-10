@@ -5,7 +5,6 @@ body{
     line-height: 1.5;
     width: 100%;
     font-weight: 100;
-    
 }
 img{
     width: auto;
@@ -42,7 +41,9 @@ h2{
     object-fit: cover;
     object-position: center;
 }
-
+nav ul{
+    padding: 0;
+}
 nav li{
     margin: 1.2em;
     list-style: none;
@@ -99,27 +100,21 @@ nav a:hover, nav a:focus{
 .article-primary{
     order: 1;
     margin-top: -1em;
-    
 }
 .article-secodary{
     order: 0;
-    
 }
 .main-article{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
     padding-bottom: 1em;
-    
 }
 .main-article-img{
     order: -2;
     margin: 1.5em 0 1em 0;
-
 }
 .article-date{
     order: -1;
-    
 }
 .date{
     color: #707070;
@@ -133,8 +128,6 @@ nav a:hover, nav a:focus{
     order: 1;
     margin-top: -1em;
 }
-
-
 .container{
     width: 1000px;
     max-width: 95%;
@@ -174,7 +167,6 @@ nav a:hover, nav a:focus{
     text-align: center;
     padding: .5em;
     margin-top: 4em;
-    
 }
 .footer-heading{
     color: #EBEBEB;
@@ -192,7 +184,6 @@ nav a:hover, nav a:focus{
     .flex-container{
         display: flex;
         justify-content: space-between;
-        
     }
     .main{
         width: 75%;
@@ -209,17 +200,13 @@ nav a:hover, nav a:focus{
     .articles{
         flex-direction: row;
         justify-content: space-between;
-        
-        
     }
     .article-primary{
         width: 68%;
-        
     }
     .article-recent-secondary{
         width: 30%;
         margin-top: .9em;
-        
     }
     .recent-img{
         width: 200px;
